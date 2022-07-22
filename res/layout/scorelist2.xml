@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#000000">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="排行榜✠第二关"
+		android:layout_width="wrap_content"
+		android:textColor="#F1F1F1"
+		android:textSize="30sp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="25dp"
+		android:id="@+id/helpTextView1"/>
+
+	<View
+		android:layout_height="2dp"
+		android:layout_width="match_parent"
+		android:layout_below="@id/helpTextView1"
+		android:background="#F1F1F1"
+		android:id="@+id/achivementView1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="返  回"
+		android:layout_width="200dp"
+		android:layout_centerHorizontal="true"
+		android:textSize="20sp"
+		android:textColor="#F1F1F1"
+		android:background="@drawable/simple_button_states"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/helpButton1"/>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_below="@id/achivementView1"
+		android:layout_above="@id/helpButton1"
+		android:id="@+id/achivementLinearLayout1"
+		android:layout_marginTop="10dp">
+
+		<ScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="28dp">
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<RelativeLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">
+
+					<RelativeLayout
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:layout_marginRight="12dp">
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView1"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView1"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView2"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView2"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView3"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView3"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView4"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView4"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView5"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView5"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView6"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView6"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView7"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView7"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView8"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView8"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView9"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView9"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView10"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView10"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView11"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView11"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView12"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView12"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView13"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView13"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView14"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView14"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView15"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView15"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView16"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView16"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView17"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView17"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView18"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView18"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView19"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_below="@id/scorelistTextView19"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextView20"
+							android:layout_centerHorizontal="true"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa1"
+							android:layout_marginBottom="5dp"
+							android:layout_marginLeft="30dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb1"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa2"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa1"
+							android:layout_alignStart="@id/scorelistTextViewa1"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb2"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb1"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa3"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa2"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb3"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb2"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa4"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa3"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb4"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb3"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa5"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa4"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb5"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb4"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_below="@id/scorelistTextViewb5"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa6"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb6"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewb5"
+							android:layout_alignParentRight="true"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa7"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa6"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb7"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb6"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa8"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa7"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb8"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb7"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa9"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa8"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb9"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb8"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:id="@+id/scorelistTextViewa10"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa9"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb10"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb9"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:id="@+id/scorelistTextViewa11"
+							android:layout_below="@id/scorelistTextViewb10"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb11"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb10"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa12"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa11"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb12"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb11"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa13"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa12"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb13"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb12"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa14"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa13"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb14"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb13"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa15"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa14"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb15"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb14"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_below="@id/scorelistTextViewb15"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa16"
+							android:layout_marginBottom="5dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb16"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewb15"
+							android:layout_alignParentRight="true"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:id="@+id/scorelistTextViewa17"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa16"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb17"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb16"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa18"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa17"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb18"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb17"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa19"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa18"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb19"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb18"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_alignStart="@id/scorelistTextViewa1"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewa20"
+							android:layout_marginBottom="5dp"
+							android:layout_below="@id/scorelistTextViewa19"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:layout_width="wrap_content"
+							android:id="@+id/scorelistTextViewb20"
+							android:layout_marginBottom="5dp"
+							android:layout_alignParentRight="true"
+							android:layout_below="@id/scorelistTextViewb19"/>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_height="100dp"
+		android:text="第\n三\n关\n⇨"
+		android:layout_width="30dp"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"
+		android:background="@drawable/simple_button_states"
+		android:textColor="#F1F1F1"
+		android:textSize="15sp"
+		android:id="@+id/scorelist2Button2"/>
+
+	<Button
+		android:layout_height="100dp"
+		android:text="第\n一\n关\n⇦"
+		android:layout_width="30dp"
+		android:layout_centerVertical="true"
+		android:background="@drawable/simple_button_states"
+		android:textColor="#F1F1F1"
+		android:textSize="15sp"
+		android:id="@+id/scorelist2Button1"/>
+
+</RelativeLayout>
+

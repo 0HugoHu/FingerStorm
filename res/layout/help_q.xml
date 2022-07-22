@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#000000">
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/helpScrollView1"
+		android:layout_marginBottom="60dp">
+
+		<RelativeLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q1:为什么游戏主题是黑白色？不觉得看久了感觉很枯燥吗？"
+				android:layout_width="wrap_content"
+				android:id="@+id/helpTextView1"
+				android:textColor="#F1F1F1"
+				android:textSize="20sp"
+				android:layout_marginTop="50dp"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="A1:黑白省电。主题并非纯白，明明是纯黑和#F1F1F1。等你玩到最后，会有答案。"
+				android:layout_width="wrap_content"
+				android:textColor="#F1F1F1"
+				android:layout_below="@id/helpTextView1"
+				android:id="@+id/helpTextView2"
+				android:textSize="14sp"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:layout_marginTop="10dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q2:为什么我同时点击了几个白块，却没有反应？"
+				android:textColor="#F1F1F1"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textSize="20sp"
+				android:layout_below="@id/helpTextView2"
+				android:id="@+id/helpTextView3"
+				android:layout_marginTop="50dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="等待前点击无效。手机的处理性能没你想象那么好。清清内存再来吧。"
+				android:textColor="#F1F1F1"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textSize="14sp"
+				android:layout_below="@id/helpTextView3"
+				android:id="@+id/helpTextView4"
+				android:layout_marginTop="10dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q3:为什么我手速明明很快(自我感觉)，分数却没有别人的高？"
+				android:textColor="#F1F1F1"
+				android:layout_width="wrap_content"
+				android:textSize="20sp"
+				android:layout_below="@id/helpTextView4"
+				android:id="@+id/helpTextView5"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:layout_marginTop="50dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="A3:存在一定因素的运气分数。并且有可能你朋友拥有更多的加成呢。"
+				android:textColor="#F1F1F1"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textSize="14sp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView5"
+				android:id="@+id/helpTextView6"
+				android:layout_marginTop="10dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q4:是否会因为我手机的好坏而影响分数的高低？"
+				android:textColor="#F1F1F1"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textSize="20sp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView6"
+				android:layout_marginTop="50dp"
+				android:id="@+id/helpTextView7"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="A4:坦白的说，是的。不过不用担心，我们正在研究方案，争取做到避免因非手速问题而带来的分数偏差。您可通过反馈告诉我们，我们会邮件给您邀请码，用于补偿分数差。"
+				android:textColor="#F1F1F1"
+				android:textSize="14sp"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView7"
+				android:id="@+id/helpTextView8"
+				android:layout_marginTop="10dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q5:为什么我明明是自己玩的，却在得分时显示作弊？"
+				android:textColor="#F1F1F1"
+				android:textSize="20sp"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView8"
+				android:layout_marginTop="50dp"
+				android:id="@+id/helpTextView9"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="A5:或许您技术过好，请将信息反馈给我们，我们将做出调整。不过您会发现，在关卡栏仍会显示您的最高的分(即使是被判定为作弊)。"
+				android:textColor="#F1F1F1"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textSize="14sp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView9"
+				android:id="@+id/helpTextView10"
+				android:layout_marginTop="10dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q6:游戏的字体太大，以至于显示错误怎么办？"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:textSize="20sp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView10"
+				android:layout_marginTop="50dp"
+				android:id="@+id/helpTextView11"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="A6:您可以在设置中更改手机当前字体。如果您是4.5寸以下屏幕，请向开发者反应问题，我们会尽快推出解决方案。"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:textSize="14sp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView11"
+				android:layout_marginTop="10dp"
+				android:id="@+id/helpTextView12"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q7:手机所支持的多点触控个数，是否会影响到游戏的大体分数？"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:textSize="20sp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView12"
+				android:layout_marginTop="50dp"
+				android:id="@+id/helpTextView13"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="A7:不会。一般只要支持3点以上就足够了。"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:id="@+id/helpTextView14"
+				android:textSize="14sp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView13"
+				android:layout_marginTop="10dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q8:怎样才能把我的分数上传到排行榜？"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:textSize="20sp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView14"
+				android:layout_marginTop="50dp"
+				android:id="@+id/helpTextView15"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q8:当您的分数高于排行榜最后一名时，我们会提示您上传。您可以自主选择是否上传您本次分数。"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:textSize="14sp"
+				android:id="@+id/helpTextView16"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView15"
+				android:layout_marginTop="10dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q9:排行榜上的分数为什么这么高？这是裸分吗？"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:textSize="20sp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView16"
+				android:layout_marginTop="50dp"
+				android:id="@+id/helpTextView17"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="A9:不是的。您可以通过继续游戏的方式或者提升等级，以获得分数加成。"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:textSize="14sp"
+				android:id="@+id/helpTextView18"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView17"
+				android:layout_marginTop="10dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q10:第二关方块为什么有时候会突然变红？"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:textSize="20sp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView18"
+				android:layout_marginTop="50dp"
+				android:id="@+id/helpTextView19"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="A10:当您点击同一方块到一定次数时，会变色。此时再点击将会扣分。"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:textSize="14sp"
+				android:id="@+id/helpTextView20"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView19"
+				android:layout_marginTop="10dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Q11:第二关，点击红色星星，为什么有时候我会扣分，有时候我直接到了结果页面？"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:textSize="20sp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView20"
+				android:layout_marginTop="50dp"
+				android:id="@+id/helpTextView21"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="A11:不仅仅是红色星星，黄色星星也是如此:当您点击到时，会随机触发效果。具体，就等待您发现了。"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:textColor="#F1F1F1"
+				android:textSize="14sp"
+				android:id="@+id/helpTextView22"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/helpTextView21"
+				android:layout_marginTop="10dp"
+				android:layout_marginBottom="50dp"/>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="返  回"
+		android:layout_width="200dp"
+		android:layout_centerHorizontal="true"
+		android:textSize="20sp"
+		android:textColor="#F1F1F1"
+		android:background="@drawable/simple_button_states"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/helpButton1"/>
+
+</RelativeLayout>
+

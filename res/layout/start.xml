@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="wrap_content"
+	android:orientation="horizontal"
+	android:background="#000000">
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="wrap_content">
+
+		<HorizontalScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:background="#000000"
+			android:layout_centerVertical="true">
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:id="@+id/startLinearLayout1">
+
+					<RelativeLayout
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_gravity="center">
+
+						<Button
+							android:layout_height="320dp"
+							android:layout_width="230dp"
+							android:layout_marginLeft="50dp"
+							android:layout_marginRight="50dp"
+							android:background="@drawable/section1"
+							android:id="@+id/startButton1"
+							android:layout_marginTop="20dp"
+							android:layout_marginBottom="20dp"/>
+
+						<Button
+							android:layout_height="320dp"
+							android:layout_width="230dp"
+							android:layout_toRightOf="@id/startButton1"
+							android:layout_marginRight="50dp"
+							android:background="@drawable/to_be_continue"
+							android:id="@+id/startButton2"
+							android:layout_marginTop="20dp"
+							android:layout_marginBottom="20dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:layout_alignBottom="@id/startButton1"
+							android:textColor="#F1F1F1"
+							android:layout_marginBottom="25dp"
+							android:id="@+id/startTextView1"
+							android:textSize="30sp"
+							android:visibility="invisible"
+							android:layout_marginLeft="20dp"
+							android:layout_alignLeft="@id/startButton1"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:layout_alignBottom="@id/startButton1"
+							android:layout_marginBottom="30dp"
+							android:layout_marginLeft="10dp"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:visibility="invisible"
+							android:id="@+id/startTextView2"
+							android:layout_marginRight="10dp"
+							android:layout_alignRight="@id/startButton1"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:layout_alignBottom="@id/startButton2"
+							android:textColor="#F1F1F1"
+							android:layout_marginBottom="25dp"
+							android:id="@+id/startTextView3"
+							android:textSize="30sp"
+							android:visibility="invisible"
+							android:layout_marginLeft="20dp"
+							android:layout_alignLeft="@id/startButton2"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:layout_alignBottom="@id/startButton2"
+							android:layout_marginBottom="30dp"
+							android:layout_marginLeft="10dp"
+							android:textColor="#F1F1F1"
+							android:textSize="20sp"
+							android:visibility="invisible"
+							android:id="@+id/startTextView4"
+							android:layout_marginRight="10dp"
+							android:layout_alignRight="@id/startButton2"/>
+
+						<Button
+							android:layout_height="320dp"
+							android:layout_width="230dp"
+							android:layout_toRightOf="@id/startButton2"
+							android:layout_marginRight="50dp"
+							android:background="@drawable/to_be_continue_3"
+							android:id="@+id/startButton3"
+							android:layout_marginTop="20dp"
+							android:layout_marginBottom="20dp"/>
+
+					</RelativeLayout>
+
+				</LinearLayout>
+
+			</RelativeLayout>
+
+		</HorizontalScrollView>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="返  回"
+			android:layout_width="200dp"
+			android:id="@+id/startButton0"
+			android:layout_centerHorizontal="true"
+			android:layout_alignParentBottom="true"
+			android:background="@drawable/simple_button_states"
+			android:textSize="20sp"
+			android:textColor="#F1F1F1"/>
+
+		<Button
+			android:layout_height="50dp"
+			android:layout_width="50dp"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="40dp"
+			android:id="@+id/startButtonhelp"
+			android:background="@drawable/help"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

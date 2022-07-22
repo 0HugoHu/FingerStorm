@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#000000">
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="第一关"
+			android:layout_width="wrap_content"
+			android:textColor="#F1F1F1"
+			android:textSize="40sp"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="50dp"
+			android:id="@+id/section1resultTextView1"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="得分:"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/section1resultTextView1"
+			android:textColor="#F1F1F1"
+			android:textSize="25sp"
+			android:layout_marginTop="25dp"
+			android:layout_marginLeft="50dp"
+			android:id="@+id/section1resultTextView2"
+			android:layout_centerHorizontal="true"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/section1resultTextView2"
+			android:textColor="#F1F1F1"
+			android:textSize="80sp"
+			android:layout_centerHorizontal="true"
+			android:id="@+id/section1resultTextView3"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="星级评价:"
+			android:layout_width="wrap_content"
+			android:textColor="#F1F1F1"
+			android:textSize="25sp"
+			android:layout_marginTop="55dp"
+			android:layout_marginLeft="50dp"
+			android:id="@+id/section1resultTextView4"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@id/section1resultTextView3"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/section1resultTextView4"
+			android:textColor="#F1F1F1"
+			android:textSize="50sp"
+			android:layout_centerHorizontal="true"
+			android:id="@+id/section1resultTextView5"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/section1resultTextView5"
+			android:layout_centerHorizontal="true"
+			android:textSize="18sp"
+			android:textColor="#F1F1F1"
+			android:id="@+id/section1resultTextView6"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="历史最高!"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/section1resultTextView3"
+			android:layout_centerHorizontal="true"
+			android:id="@+id/section1resultTextView7"
+			android:textColor="#F1F1F1"
+			android:textSize="20sp"
+			android:visibility="gone"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="☞返回☜"
+			android:layout_width="wrap_content"
+			android:layout_alignLeft="@id/section1resultTextView5"
+			android:id="@+id/section1resultButton1"
+			android:textColor="#F1F1F1"
+			android:background="@drawable/simple_button_states"
+			android:layout_marginTop="60dp"
+			android:layout_marginLeft="26dp"
+			android:layout_alignParentBottom="true"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="☞重玩☜"
+			android:layout_width="wrap_content"
+			android:layout_alignBottom="@id/section1resultButton1"
+			android:layout_alignRight="@id/section1resultTextView5"
+			android:textColor="#F1F1F1"
+			android:background="@drawable/simple_button_states"
+			android:layout_marginRight="25dp"
+			android:id="@+id/section1resultButton2"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/section1resultTextView7"
+			android:layout_centerHorizontal="true"
+			android:textColor="#F1F1F1"
+			android:visibility="invisible"
+			android:textSize="18sp"
+			android:id="@+id/section1resultTextView8"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

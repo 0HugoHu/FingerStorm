@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="#000000">
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="指尖风暴"
+			android:layout_width="wrap_content"
+			android:textColor="#F1F1F1"
+			android:textStyle="bold"
+			android:layout_centerHorizontal="true"
+			android:textSize="50sp"
+			android:layout_marginTop="150dp"
+			android:id="@+id/mainTextView1"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="开    始"
+			android:layout_width="200dp"
+			android:textColor="#F1F1F1"
+			android:layout_below="@id/mainTextView1"
+			android:layout_centerHorizontal="true"
+			android:textSize="30sp"
+			android:layout_marginTop="100dp"
+			android:id="@+id/mainButton1"
+			android:background="@drawable/simple_button_states"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="排行榜"
+			android:id="@+id/mainButton2"
+			android:layout_width="200dp"
+			android:layout_below="@id/mainButton1"
+			android:layout_centerHorizontal="true"
+			android:textSize="30sp"
+			android:textColor="#F1F1F1"
+			android:background="@drawable/simple_button_states"
+			android:visibility="visible"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="更    多"
+			android:layout_width="200dp"
+			android:layout_below="@id/mainButton2"
+			android:layout_centerHorizontal="true"
+			android:textSize="30sp"
+			android:textColor="#F1F1F1"
+			android:id="@+id/mainButton3"
+			android:background="@drawable/simple_button_states"/>
+
+		<View
+			android:layout_height="50dp"
+			android:layout_width="match_parent"
+			android:layout_alignParentBottom="true"
+			android:background="@drawable/main_h"
+			android:id="@+id/mainView2"/>
+
+		<View
+			android:layout_height="50dp"
+			android:layout_width="match_parent"
+			android:background="@drawable/main_h"
+			android:id="@+id/mainView1"/>
+
+		<View
+			android:layout_height="match_parent"
+			android:layout_width="50dp"
+			android:layout_alignParentRight="true"
+			android:background="@drawable/main_s"
+			android:id="@+id/mainView4"/>
+
+		<View
+			android:layout_height="match_parent"
+			android:layout_width="50dp"
+			android:background="@drawable/main_s"
+			android:id="@+id/mainView3"/>
+<!--
+		<ProgressBar
+			android:layout_height="9dp"
+			style="@style/ProgressBar_Mini"
+			android:layout_width="match_parent"
+			android:id="@+id/achivementProgressBar1"
+			android:layout_marginBottom="19dp"
+			android:layout_alignParentBottom="true"/>
+
+		<ProgressBar
+			android:layout_height="9dp"
+			style="@style/ProgressBar_Mini"
+			android:layout_width="match_parent"
+			android:id="@+id/achivementProgressBar2"
+			android:layout_marginTop="22dp"/>
+
+		<ProgressBar
+			android:layout_height="match_parent"
+			style="@style/ProgressBar_Mini"
+			android:layout_width="9dp"
+			android:id="@+id/achivementProgressBar3"
+			android:layout_marginLeft="21dp"/>
+
+		<ProgressBar
+			android:layout_height="match_parent"
+			style="@style/ProgressBar_Mini"
+			android:layout_width="9dp"
+			android:id="@+id/achivementProgressBar4"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="19dp"/>
+-->
+	</RelativeLayout>
+
+</LinearLayout>
+

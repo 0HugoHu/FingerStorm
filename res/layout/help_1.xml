@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#000000">
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/help_1ScrollView1"
+		android:layout_marginBottom="60dp">
+
+		<RelativeLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="第一关  帮助"
+				android:layout_width="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:textSize="30sp"
+				android:layout_marginTop="25dp"
+				android:textColor="#F1F1F1"
+				android:id="@+id/help_1TextView1"/>
+
+			<TextView
+				android:layout_height="370dp"
+				android:layout_width="220dp"
+				android:layout_below="@id/help_1TextView1"
+				android:background="@drawable/help_1_1"
+				android:id="@+id/help_1TextView2"
+				android:layout_marginTop="30dp"
+				android:layout_marginLeft="10dp"
+				android:layout_centerHorizontal="true"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="如上图——左上角为第一局(共五局)的准备倒计时。当数字显示为0时方可点击白块。"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/help_1TextView2"
+				android:id="@+id/help_1TextView4"
+				android:textColor="#F1F1F1"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="20dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_height="370dp"
+				android:text="Text"
+				android:layout_width="220dp"
+				android:layout_below="@id/help_1TextView4"
+				android:id="@+id/help1TextView1"
+				android:layout_marginTop="20dp"
+				android:background="@drawable/help_1_2"
+				android:layout_centerHorizontal="true"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="如上图——左上角显示当前局数，中间显示本局剩余时间，右上角显示目前累计得分。您需要做的，就是在本局倒计时变为0前，尽可能的点击所有白块，让其消失，获取最高分数！"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/help1TextView1"
+				android:textColor="#F1F1F1"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="20dp"
+				android:gravity="center"
+				android:id="@+id/help_1TextView5"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="随着局数增加，难度也会陡升。好运！"
+				android:layout_width="wrap_content"
+				android:textColor="#F1F1F1"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="20dp"
+				android:gravity="center"
+				android:layout_below="@id/help_1TextView5"
+				android:layout_centerHorizontal="true"/>
+
+			<View
+				android:layout_height="2dp"
+				android:layout_width="match_parent"
+				android:layout_below="@id/help_1TextView1"
+				android:background="#F1F1F1"/>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="返  回"
+		android:layout_width="200dp"
+		android:layout_centerHorizontal="true"
+		android:textSize="20sp"
+		android:textColor="#F1F1F1"
+		android:background="@drawable/simple_button_states"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/help_1Button1"/>
+
+</RelativeLayout>
+

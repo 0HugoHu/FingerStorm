@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="220dp"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:alpha="1"
+	android:layout_gravity="center|center_horizontal"
+	android:background="@drawable/dialog_style2">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="欢迎使用\n指尖风暴内测版V2.03\n\n请您尽情在游戏中寻找并反馈任何漏洞(布局不当、字词错误、不流畅、显示错误及漏洞)\n\n凡是有价值的反馈，我们将给予您特别邀请码以兑换特殊成就。\n\n本次更新——V2.03\n*新增第二关，体验新玩法。\n*若干项平衡性修复，提升公平性。"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:textColor="#F1F1F1"
+		android:gravity="center"
+		android:id="@+id/dialogupTextView1"
+		android:textSize="18sp"
+		android:layout_marginBottom="20dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="确定"
+		android:layout_width="match_parent"
+		android:layout_below="@id/dialogupTextView1"
+		android:id="@+id/dialogupButton1"
+		android:layout_alignLeft="@id/dialogupTextView1"
+		android:textSize="18sp"
+		android:background="@drawable/simple_button_states"
+		android:layout_marginBottom="20dp"
+		android:textColor="#F1F1F1"
+		android:layout_marginRight="20dp"/>
+
+</RelativeLayout>
+

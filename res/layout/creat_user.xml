@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#000000">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="创建身份"
+		android:layout_width="wrap_content"
+		android:textColor="#F1F1F1"
+		android:textSize="30sp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="25dp"
+		android:id="@+id/helpTextView1"/>
+
+	<View
+		android:layout_height="2dp"
+		android:layout_width="match_parent"
+		android:layout_below="@id/helpTextView1"
+		android:background="#F1F1F1"
+		android:id="@+id/specialcodingView1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="返  回"
+		android:layout_width="200dp"
+		android:layout_centerHorizontal="true"
+		android:textSize="20sp"
+		android:textColor="#F1F1F1"
+		android:background="@drawable/simple_button_states"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/helpButton1"/>
+
+	<EditText
+		android:layout_height="50dp"
+		android:ems="15"
+		android:layout_width="match_parent"
+		android:layout_below="@id/specialcodingView1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="40dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:hint="点击以输入本人英文名称"
+		android:textColor="#F1F1F1"
+		android:gravity="center"
+		android:id="@+id/returnEditText1"
+		android:background="@drawable/rounded_edittext_states"
+		android:inputType="textVisiblePassword"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="点击确认"
+		android:layout_width="200dp"
+		android:layout_below="@id/returnEditText1"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/simple_button_states"
+		android:layout_marginTop="20dp"
+		android:textColor="#F1F1F1"
+		android:id="@+id/returnButton1"
+		android:textSize="20sp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="只能包含字母、数字、下划线，必须以字母或数字开头 。\n本姓名在排行榜随您的分数一同显示(不做他用)。\n为了方便别人的辨识，请输入真实姓名。\n姓名只能输入一次，请谨慎考虑。\n\n最终解释权归作者Mys-King所有。"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/returnButton1"
+		android:layout_centerHorizontal="true"
+		android:textColor="#B0B0B0"
+		android:layout_marginTop="10dp"
+		android:gravity="center"
+		android:layout_marginLeft="40dp"/>
+
+</RelativeLayout>
+

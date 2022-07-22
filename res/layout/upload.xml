@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#000000">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="上传数据"
+		android:layout_width="wrap_content"
+		android:textColor="#F1F1F1"
+		android:textSize="30sp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="25dp"
+		android:id="@+id/helpTextView1"/>
+
+	<View
+		android:layout_height="2dp"
+		android:layout_width="match_parent"
+		android:layout_below="@id/helpTextView1"
+		android:background="#F1F1F1"
+		android:id="@+id/specialcodingView1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="返  回"
+		android:layout_width="200dp"
+		android:layout_centerHorizontal="true"
+		android:textSize="20sp"
+		android:textColor="#F1F1F1"
+		android:background="@drawable/simple_button_states"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/helpButton1"/>
+
+	<ProgressBar
+		android:layout_height="wrap_content"
+		style="?android:attr/progressBarStyleLarge"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/specialcodingView1"
+		android:layout_marginTop="40dp"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/uploadProgressBar1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="上传中......请等待"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/uploadProgressBar1"
+		android:textColor="#F1F1F1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dp"
+		android:id="@+id/uploadTextView1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="*如果您打开本游戏的时候未连接网络，有可能所记录的分数已经失效。\n如果您等待时间超过5秒，请检查网络设置，或是到空旷处以保证网络连接正常。"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/uploadTextView1"
+		android:textColor="#F1F1F1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="40dp"
+		android:gravity="center"/>
+
+</RelativeLayout>
+

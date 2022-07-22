@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="220dp"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:alpha="1"
+	android:background="@drawable/dialog_style1"
+	android:layout_gravity="center|center_horizontal">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="提示\n\n在时间截止前快速点击方块以移除，并争取获得更高分数。"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:textColor="#F1F1F1"
+		android:gravity="center"
+		android:textSize="18sp"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:id="@+id/dialoghelp1TextView1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="确认"
+		android:layout_width="match_parent"
+		android:layout_below="@id/dialoghelp1TextView1"
+		android:id="@+id/dialoghelp1Button1"
+		android:textSize="18sp"
+		android:background="@drawable/simple_button_states"
+		android:layout_marginBottom="20dp"
+		android:textColor="#F1F1F1"
+		android:layout_alignEnd="@id/dialoghelp1TextView1"
+		android:layout_alignStart="@id/dialoghelp1TextView1"
+		android:layout_marginTop="5dp"/>
+
+</RelativeLayout>
+

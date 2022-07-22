@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="220dp"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:alpha="1"
+	android:layout_gravity="center|center_horizontal"
+	android:background="@drawable/dialog_style2">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="恭喜你解锁了新的成就"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:textColor="#F1F1F1"
+		android:gravity="center"
+		android:id="@+id/dialogupTextView1"
+		android:textSize="18sp"
+		android:layout_marginBottom="20dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="确定"
+		android:layout_width="match_parent"
+		android:layout_below="@id/dialogupTextView1"
+		android:id="@+id/dialogupButton1"
+		android:layout_alignLeft="@id/dialogupTextView1"
+		android:textSize="18sp"
+		android:background="@drawable/simple_button_states"
+		android:layout_marginBottom="20dp"
+		android:textColor="#F1F1F1"
+		android:layout_marginRight="20dp"/>
+</RelativeLayout>
+

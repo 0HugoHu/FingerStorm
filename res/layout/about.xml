@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#000000">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="关于"
+		android:layout_width="wrap_content"
+		android:textColor="#F1F1F1"
+		android:textSize="30sp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="25dp"
+		android:id="@+id/helpTextView1"/>
+
+	<View
+		android:layout_height="2dp"
+		android:layout_width="match_parent"
+		android:layout_below="@id/helpTextView1"
+		android:background="#F1F1F1"
+		android:id="@+id/aboutView1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="返  回"
+		android:layout_width="200dp"
+		android:layout_centerHorizontal="true"
+		android:textSize="20sp"
+		android:textColor="#F1F1F1"
+		android:background="@drawable/simple_button_states"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/helpButton1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="作者:Mys-King"
+		android:layout_width="wrap_content"
+		android:textColor="#F1F1F1"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/aboutView1"
+		android:layout_marginTop="20dp"
+		android:id="@+id/aboutTextView1"
+		android:textSize="20sp"/>
+
+	<TextView
+		android:layout_height="200dp"
+		android:layout_width="200dp"
+		android:textColor="#F1F1F1"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/aboutTextView2"
+		android:layout_centerVertical="true"
+		android:background="@drawable/icon"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="感谢Howus成员对本游戏前期提出的建议"
+		android:layout_width="wrap_content"
+		android:textColor="#F1F1F1"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/aboutTextView2"
+		android:id="@+id/aboutTextView3"
+		android:layout_marginTop="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="感谢nymph对游戏进行周边测试"
+		android:textColor="#F1F1F1"
+		android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/aboutTextView3"
+		android:id="@+id/aboutTextView4"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="申请源码请联系作者"
+		android:textColor="#F1F1F1"
+		android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/aboutTextView4"
+		android:id="@+id/aboutTextView5"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textColor="#F1F1F1"
+		android:layout_centerHorizontal="true"
+		android:text="邮箱:2246104376@qq.com"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/aboutTextView5"
+		android:id="@+id/aboutTextView6"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="版本号:正式版 Version 1.0"
+		android:textColor="#F1F1F1"
+		android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content"
+		android:layout_above="@id/aboutTextView2"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="感谢对本游戏的大力支持"
+		android:textColor="#F1F1F1"
+		android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/aboutTextView6"/>
+
+</RelativeLayout>
+

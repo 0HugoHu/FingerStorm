@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#000000">
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/help_1ScrollView1"
+		android:layout_marginBottom="60dp">
+
+		<RelativeLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="第二关  帮助"
+				android:layout_width="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:textSize="30sp"
+				android:layout_marginTop="25dp"
+				android:textColor="#F1F1F1"
+				android:id="@+id/help_1TextView1"/>
+
+			<TextView
+				android:layout_height="370dp"
+				android:layout_width="220dp"
+				android:layout_below="@id/help_1TextView1"
+				android:background="@drawable/help_2_1"
+				android:id="@+id/help_1TextView2"
+				android:layout_marginTop="30dp"
+				android:layout_marginLeft="10dp"
+				android:layout_centerHorizontal="true"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="如上图——左上角为当前分数倍率(默认1.0)。3秒等待后，开始游戏。方块会随机以任何轨迹在屏幕中穿梭，您只需要尽可能的点击它。"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/help_1TextView2"
+				android:id="@+id/help_1TextView4"
+				android:textColor="#F1F1F1"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="20dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_height="370dp"
+				android:layout_width="220dp"
+				android:layout_below="@id/help_1TextView4"
+				android:id="@+id/help1TextView1"
+				android:layout_marginTop="20dp"
+				android:background="@drawable/help_2_2"
+				android:layout_centerHorizontal="true"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="但是要注意——点击一定次数后，方块会变红。此时点击，将会导致意想不到的结局。"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/help1TextView1"
+				android:textColor="#F1F1F1"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="20dp"
+				android:gravity="center"
+				android:id="@+id/help_1TextView5"
+				android:layout_marginBottom="20dp"/>
+
+			<View
+				android:layout_height="2dp"
+				android:layout_width="match_parent"
+				android:layout_below="@id/help_1TextView1"
+				android:background="#F1F1F1"/>
+
+			<TextView
+				android:layout_height="370dp"
+				android:layout_width="220dp"
+				android:layout_below="@id/help_1TextView5"
+				android:layout_centerHorizontal="true"
+				android:id="@+id/help2TextView1"
+				android:background="@drawable/help_2_3"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="如上图——任何时间都会随机出现红色星星，请不要点击。"
+				android:textColor="#F1F1F1"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="20dp"
+				android:gravity="center"
+				android:layout_marginBottom="20dp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/help2TextView1"
+				android:id="@+id/help2TextView2"/>
+
+			<TextView
+				android:layout_height="370dp"
+				android:layout_width="220dp"
+				android:layout_centerHorizontal="true"
+				android:layout_below="@id/help2TextView2"
+				android:id="@+id/help2TextView3"
+				android:layout_marginBottom="20dp"
+				android:background="@drawable/help_2_4"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="当然了，遇到黄色星星，说明您运气很好。点击它会有额外惊喜哦！"
+				android:textColor="#F1F1F1"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="20dp"
+				android:gravity="center"
+				android:layout_marginBottom="20dp"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/help2TextView3"
+				android:id="@+id/help2TextView4"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="随着时间推移，方块出现速率会越来越大，请合理分配点击的对象！"
+				android:textColor="#F1F1F1"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="20dp"
+				android:gravity="center"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/help2TextView4"/>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="返  回"
+		android:layout_width="200dp"
+		android:layout_centerHorizontal="true"
+		android:textSize="20sp"
+		android:textColor="#F1F1F1"
+		android:background="@drawable/simple_button_states"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/help_1Button1"/>
+
+</RelativeLayout>
+

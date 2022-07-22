@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#000000">
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="更多"
+			android:layout_width="wrap_content"
+			android:textColor="#F1F1F1"
+			android:textSize="30sp"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="25dp"
+			android:id="@+id/helpTextView1"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="成就"
+			android:textColor="#F1F1F1"
+			android:background="@drawable/simple_button_states"
+			android:layout_width="140dp"
+			android:id="@+id/settingButton5"
+			android:layout_marginLeft="30dp"
+			android:layout_centerVertical="true"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="激活码"
+			android:textColor="#F1F1F1"
+			android:background="@drawable/simple_button_states"
+			android:layout_width="140dp"
+			android:layout_alignBottom="@id/settingButton5"
+			android:layout_marginRight="30dp"
+			android:id="@+id/settingButton6"
+			android:layout_alignParentRight="true"/>
+
+		<View
+			android:layout_height="2dp"
+			android:layout_width="match_parent"
+			android:layout_below="@id/helpTextView1"
+			android:background="#F1F1F1"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="关于"
+			android:layout_width="140dp"
+			android:textColor="#F1F1F1"
+			android:background="@drawable/simple_button_states"
+			android:layout_above="@id/settingButton5"
+			android:id="@+id/settingButton1"
+			android:layout_marginBottom="35dp"
+			android:layout_marginLeft="30dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="反馈"
+			android:layout_width="140dp"
+			android:textColor="#F1F1F1"
+			android:background="@drawable/simple_button_states"
+			android:layout_toRightOf="@id/settingButton1"
+			android:layout_alignBottom="@id/settingButton1"
+			android:layout_marginRight="30dp"
+			android:id="@+id/settingButton3"
+			android:layout_alignParentRight="true"
+			android:layout_alignStart="@id/settingButton6"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="声音:关"
+			android:layout_width="140dp"
+			android:layout_above="@id/settingButton1"
+			android:layout_marginBottom="35dp"
+			android:layout_alignEnd="@id/settingButton1"
+			android:layout_marginLeft="20dp"
+			android:id="@+id/settingButton2"
+			android:textColor="#F1F1F1"
+			android:background="@drawable/simple_button_states"
+			android:layout_marginTop="10dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="清除数据"
+			android:textColor="#F1F1F1"
+			android:background="@drawable/simple_button_states"
+			android:layout_width="140dp"
+			android:layout_alignBottom="@id/settingButton2"
+			android:layout_alignLeft="@id/settingButton3"
+			android:layout_marginRight="20dp"
+			android:id="@+id/settingButton4"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="指尖风暴"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/settingButton5"
+			android:textSize="50sp"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="40dp"
+			android:id="@+id/settingTextView3"
+			android:textStyle="bold"
+			android:textColor="#717171"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Version 1.0正式版"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/settingTextView3"
+			android:layout_centerHorizontal="true"
+			android:textSize="20sp"
+			android:layout_marginTop="20dp"
+			android:id="@+id/settingTextView4"
+			android:textColor="#717171"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Copyright © 2015 Mys-King. All Right Reserved."
+			android:layout_width="wrap_content"
+			android:layout_below="@id/settingTextView4"
+			android:layout_centerHorizontal="true"
+			android:textColor="#717171"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="返  回"
+			android:layout_width="200dp"
+			android:layout_centerHorizontal="true"
+			android:textSize="20sp"
+			android:textColor="#F1F1F1"
+			android:background="@drawable/simple_button_states"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/helpButton1"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

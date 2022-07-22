@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#000000">
+
+	<TextView
+		android:layout_height="30dp"
+		android:layout_width="wrap_content"
+		android:id="@+id/section2T1"
+		android:textColor="#F1f1f1"
+		android:textSize="25sp"
+		android:layout_alignParentLeft="true"
+		android:layout_marginTop="10dp"/>
+
+	<TextView
+		android:layout_height="35dp"
+		android:text="时间"
+		android:layout_width="wrap_content"
+		android:id="@+id/section2T2"
+		android:textColor="#F1f1f1"
+		android:layout_centerHorizontal="true"
+		android:textSize="30sp"
+		android:layout_marginTop="10dp"/>
+
+	<TextView
+		android:layout_height="45dp"
+		android:layout_width="wrap_content"
+		android:id="@+id/section2T3"
+		android:layout_below="@id/section2T2"
+		android:layout_centerHorizontal="true"
+		android:textColor="#F1f1f1"
+		android:textSize="40sp"/>
+
+	<TextView
+		android:layout_height="30dp"
+		android:layout_width="wrap_content"
+		android:textColor="#F1f1f1"
+		android:id="@+id/section2T4"
+		android:textSize="25sp"
+		android:layout_alignParentRight="true"
+		android:gravity="center"
+		android:layout_marginTop="10dp"
+		android:text="分数"/>
+
+	<TextView
+		android:layout_height="30dp"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/section2T4"
+		android:layout_alignParentRight="true"
+		android:textColor="#F1f1f1"
+		android:id="@+id/section2T5"
+		android:textSize="25sp"
+		android:gravity="center"
+		android:text="0"/>
+
+	<TextView
+		android:layout_height="30dp"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/section2T1"
+		android:layout_alignParentLeft="true"
+		android:textColor="#F1F1F1"
+		android:id="@+id/section2T6"
+		android:textSize="25sp"
+		android:gravity="center"
+		android:text=""/>
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_below="@id/section2T3"
+		android:id="@+id/re"
+		android:onClick="re">
+
+		<Button
+			android:layout_height="65dp"
+			android:onClick="a1"
+			android:visibility="invisible"
+			android:layout_width="65dp"
+			android:id="@+id/section2Button1"/>
+
+		<Button
+			android:layout_height="65dp"
+			android:layout_width="65dp"
+			android:visibility="invisible"
+			android:onClick="a2"
+			android:id="@+id/section2Button2"/>
+
+		<Button
+			android:layout_height="65dp"
+			android:layout_width="65dp"
+			android:visibility="invisible"
+			android:onClick="a3"
+			android:id="@+id/section2Button3"/>
+
+		<Button
+			android:layout_height="65dp"
+			android:layout_width="65dp"
+			android:visibility="invisible"
+			android:id="@+id/section2Button4"
+			android:onClick="a4"/>
+
+		<Button
+			android:layout_height="65dp"
+			android:layout_width="65dp"
+			android:id="@+id/section2Button5"
+			android:onClick="a5"
+			android:visibility="invisible"/>
+
+		<Button
+			android:layout_height="58dp"
+			android:onClick="a6"
+			android:visibility="gone"
+			android:layout_width="50dp"
+			android:id="@+id/section2Button6"/>
+<!--
+		<Button
+			android:layout_height="70dp"
+			android:layout_width="70dp"
+			android:onClick="s4"
+			android:layout_alignParentBottom="true"
+			android:background="@drawable/square"
+			android:layout_alignParentRight="true"
+			android:id="@+id/section2S4"
+			android:visibility="invisible"/>
+
+		<Button
+			android:layout_height="70dp"
+			android:layout_width="70dp"
+			android:onClick="s3"
+			android:layout_alignParentBottom="true"
+			android:background="@drawable/square"
+			android:layout_alignParentLeft="true"
+			android:id="@+id/section2S3"
+			android:visibility="invisible"/>
+
+		<Button
+			android:layout_height="70dp"
+			android:layout_width="70dp"
+			android:onClick="s2"
+			android:background="@drawable/square"
+			android:layout_alignParentRight="true"
+			android:id="@+id/section2S2"
+			android:visibility="invisible"/>
+
+		<Button
+			android:layout_height="70dp"
+			android:layout_width="70dp"
+			android:onClick="s1"
+			android:background="@drawable/square"
+			android:layout_alignParentLeft="true"
+			android:id="@+id/section2S1"
+			android:visibility="invisible"/>
+-->
+	</RelativeLayout>
+
+</RelativeLayout>
+
